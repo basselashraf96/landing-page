@@ -243,3 +243,69 @@ section.your-active-class .landing__container::after {
         transform: rotate(360deg) translate(-1em) rotate(-360deg);
     }
 }
+
+
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {
+    body {
+        background: red;
+    }
+    h1 {
+        font-size: 3em;
+    }
+    section h2 {
+        font-size: 3em;
+    }
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media only screen and (min-width: 600px) {
+    body {
+        background: green;
+    }
+    section h2 {
+        font-size: 3em;
+    }
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media only screen and (min-width: 768px) {
+    body {
+        background: blue;
+    }
+    section h2 {
+        font-size: 3em;
+    }
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+@media only screen and (min-width: 992px) {
+    body {
+        background: orange;
+    }
+    section h2 {
+        font-size: 3em;
+    }
+}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+@media only screen and (min-width: 1200px) {
+    body {
+        background: pink;
+    }
+    section h2 {
+        font-size: 4em;
+    }
+    section p {
+        font-size: 1.25em;
+    }
+}
