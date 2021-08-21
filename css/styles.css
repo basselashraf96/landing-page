@@ -76,6 +76,17 @@ section {
     text-align: right;
 }
 
+#navbar__list li {
+    color: #000;
+    padding: 10px;
+    font-size: 1.3em;
+}
+
+#navbar__list li:hover {
+    background-color: black;
+    color: white;
+}
+
 .navbar__menu li {
     display: inline-block;
 }
@@ -256,6 +267,9 @@ section.your-active-class .landing__container::after {
     }
     section h2 {
         font-size: 3em;
+    }
+    #navbar__list li {
+        font-size: 1.2em;
     }
 }
 
