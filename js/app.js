@@ -83,7 +83,7 @@ for (let sectionNum = 1; sectionNum < sectionContainers.length; sectionNum++) {
 document.addEventListener('scroll', function() {
     let scrollPositionY = window.scrollY; // get Y axis coordinates
     for (let sectionIndex = 0; sectionIndex < sectionContainers.length; sectionIndex++) {
-        if (sectionIndex === sectionContainers.length - 1) {
+        if (sectionIndex === sectionContainers.length - 1) { // when index reaches the end of section container size
             if (sectionCoordinates[sectionIndex].y && (scrollPositionY > (sectionCoordinates[sectionIndex].y - 150))) {
                 toggleActive(sectionIndex);
             }
