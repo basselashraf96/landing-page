@@ -21,3 +21,5 @@ This is a landing page which has some features
 2. Responsive to every device resolution.
 3. Active state while scrolling between sections.
 4. The code dyncamically adjusts to any number of sections.
+5. Highlight selected section in navigation bar.
+6. Smooth scrolling between sections.
